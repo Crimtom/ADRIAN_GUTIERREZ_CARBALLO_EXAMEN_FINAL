@@ -1,0 +1,95 @@
+﻿body {
+    background-color: white;
+    background-size: cover;
+}
+
+header {
+    background-color: cadetblue;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    font-family: Arial;
+    font-size: xx-large;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    left: 270px;
+}
+
+section {
+    border: 2px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+    top: 70px;
+    left: 455px;
+}
+
+.title_ced {
+    position: relative;
+    top: 0px;
+    left: 355px;
+}
+
+.class_ced {
+    position: relative;
+    top: 25px;
+    left: 240px;
+}
+
+.title_nom {
+    position: relative;
+    top: 60px;
+    left: 120px;
+}
+
+.class_nom {
+    position: relative;
+    top: 80px;
+    left: 2px;
+}
+
+.title_par {
+    position: relative;
+    top: 120px;
+    left: -135px;
+}
+
+.class_par {
+    position: relative;
+    top: 145px;
+    left: -283px;
+}
+
+.title_eda {
+    position: relative;
+    top: 180px;
+    left: -390px;
+}
+
+.class_eda {
+    position: relative;
+    top: 195px;
+    left: 290px;
+}
+
+.title_pla {
+    position: relative;
+    top: 240px;
+    left: 165px;
+}
+
+.class_pla {
+    position: relative;
+    top: 270px;
+    left: 35px;
+}
+
+.b_candi {
+    position: relative;
+    top: 400px;
+    left: -120px;
+    height: 61px;
+    width: 377px;
+}

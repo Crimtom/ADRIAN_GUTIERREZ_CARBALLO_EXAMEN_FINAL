@@ -70,6 +70,7 @@
     <Content Include="Capa_Vistas\CSS\StyleLogin.css" />
     <Content Include="Capa_Vistas\CSS\StyleMaster.css" />
     <Content Include="Capa_Vistas\CSS\StyleStart.css" />
+    <Content Include="Capa_Vistas\CSS\StyleViaje.css" />
     <Content Include="Capa_Vistas\Inicio.aspx" />
     <Content Include="Capa_Vistas\Login\imagenes\background.png" />
     <Content Include="Capa_Vistas\Login\imagenes\Data box.png" />

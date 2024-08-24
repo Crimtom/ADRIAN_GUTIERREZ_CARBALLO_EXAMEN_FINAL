@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="CSS/StyleViaje.css" rel="stylesheet" />
     <title>Registrar viajeros</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
         <div style="width: 1205px">
             <asp:GridView ID="GDcandi" runat="server"></asp:GridView>
             <header>
-                <h2>Añadir Candidato</h2>
+                <h2>Añadir Viajero</h2>
             </header>
             <section style="width: 806px; height: 451px">
                 <article style="height: 318px">
