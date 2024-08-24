@@ -1,0 +1,62 @@
+﻿body {
+    background-image: url('../login/imagenes/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    background-image: url('../login/imagenes/data box.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 720px;
+    width: 540px;
+}
+
+.nombrebox {
+    position: relative;
+    top: 278px;
+    left: 40px;
+}
+
+.emailbox {
+    position: relative;
+    top: 336px;
+    left: 40px;
+}
+
+.contrabox {
+    position: relative;
+    top: 393px;
+    left: 40px;
+}
+
+.enviarboto {
+    background-image: url('../login/imagenes/login.png');
+    background-color: transparent;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 422px;
+    height: 163px;
+    color: transparent;
+    position: relative;
+    top: 420px;
+    left: 50px;
+}
+
+    .enviarboto:hover {
+        transform: scale(1.05);
+        transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }

@@ -1,0 +1,20 @@
+﻿.menu_title {
+    font-family: Arial;
+    font-size: xx-large;
+    justify-content: center;
+    text-align: center;
+}
+
+.weltext {
+    background-color: white;
+    background-size: cover;
+    opacity: 0.8;
+    border-radius: 15px;
+    justify-content: center;
+    position: relative;
+    top: 280px;
+    left: 500px;
+    font-family: Arial;
+    font-size: x-large;
+    text-align: center;
+}

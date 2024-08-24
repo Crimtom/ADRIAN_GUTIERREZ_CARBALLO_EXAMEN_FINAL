@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="ADRIAN_GUTIERREZ_CARBALLO_EXAMEN_FINAL.Capa_Vistas.Pagina_Maestra.Home" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../CSS/StyleMaster.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <section class="sec_main">
+                <h1 class="title_master">Sistema de Aduana</h1>
+                <nav class="main_ops">
+                    <a href="Inicio.aspx">Inicio</a>
+                    <a href="registro_viajeros.aspx">Registro de Viajeros</a>
+                    <a href="registro_exit_enter.aspx">Registro de entradas y salidas</a>
+                </nav>
+            </section>
+            
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <footer style="height: 44px">
+                Hecho por Adrian Gutiérrez Carballo
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
