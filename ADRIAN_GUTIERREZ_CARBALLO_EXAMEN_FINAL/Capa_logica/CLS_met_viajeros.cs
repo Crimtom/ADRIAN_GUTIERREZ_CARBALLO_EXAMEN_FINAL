@@ -44,5 +44,36 @@ namespace ADRIAN_GUTIERREZ_CARBALLO_EXAMEN_FINAL.Capa_logica
             }
             return retorno;
         }
+
+        public static int Borrar(int codigo)
+        {
+            // variable retorno para validar la ejecucion del proceso 
+            int retorno = 0;
+
+
+            string query = "DELETE viajeros WHERE id_viaje = @codigo";
+            SqlConnection Conn = new SqlConnection();
+            try
+            {
+                using (Conn = BDconexion.obtener_conexion())
+                {
+                    SqlCommand cmd = new SqlCommand(query, Conn);
+
+                    cmd.Parameters.Add(new SqlParameter("@codigo", codigo));
+
+                    retorno = cmd.ExecuteNonQuery();
+                }
+            }
+            catch (System.Data.SqlClient.SqlException ex)
+            {
+                retorno = -1;
+            }
+            finally
+            {
+                Conn.Close();
+            }
+
+            return retorno;
+        }
     }
 }
