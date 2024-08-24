@@ -77,6 +77,7 @@
     <Content Include="Capa_Vistas\Login\login.aspx" />
     <Content Include="Capa_Vistas\registro_exit_enter.aspx" />
     <Content Include="Capa_Vistas\registro_viajeros.aspx" />
+    <Content Include="SQL Querry\EXAMEN FINAL QUERRY.sql" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
