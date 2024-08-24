@@ -86,6 +86,7 @@
     <Compile Include="Capa_Datos\CLS_tipo_registro.cs" />
     <Compile Include="Capa_Datos\CLS_usuarios.cs" />
     <Compile Include="Capa_Datos\CLS_viajeros.cs" />
+    <Compile Include="Capa_logica\CLS_met_registro.cs" />
     <Compile Include="Capa_logica\CLS_met_usuarios.cs" />
     <Compile Include="Capa_Vistas\Inicio.aspx.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
