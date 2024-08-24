@@ -20,8 +20,24 @@ namespace ADRIAN_GUTIERREZ_CARBALLO_EXAMEN_FINAL.Capa_logica
             SqlConnection Conn = new SqlConnection();
             try
             {
-
+                using (Conn = BDconexion.obtener_conexion())
+                {
+                    SqlCommand cmd = new SqlCommand(querry, Conn);
+                    cmd.Parameters.Add(new SqlParameter("@nom", nom));
+                    cmd.Parameters.Add(new SqlParameter("@email", email));
+                    cmd.Parameters.Add(new SqlParameter("@contrase", contrase));
+                    retorno = cmd.ExecuteNonQuery();
+                }
             }
+            catch (System.Data.SqlClient.SqlException ex)
+            {
+                retorno = -1;
+            }
+            finally
+            {
+                Conn.Close();
+            }
+            return retorno;
         }
     }
 }
